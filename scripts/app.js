@@ -1,15 +1,14 @@
 
-function sayHello() {
-    console.log("hello world");
+function saveTask()
+{
+    console.log("button clicked")
 }
 
 function init() {
-    console.log("hello im the init function");
-    sayHello();
+//load data
+
+// hook events
+$("#btnSave").click(saveTask);
 }
 
-window.onload = init;// This will run when the page
-//  is loaded - when the html and the
-// css are loaded the logic will run
-// just a comment to explain the code
-// another comment to explain the code
+window.onload = init;
